@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "picture/pag/index/index",
+       "pages/index/index",
+    "pages/deo/deo",
+    "pages/di/di", 
+    "pages/did/did",
+    "pages/havent/havent",
+    "pages/moni/moni",
+    "pages/cengke/cengke",
+    "pages/already/already",
+    "pages/houtai/houtai",
+    "pages/ceshi1/ceshi1",
+     "pages/firstpage/firstpage",
+    "pages/ceshi2/ceshi2",
+    "pages/ceshi3/ceshi3",
+    "pages/ceshi/ceshi"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "人脸识别签到",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": false
+  },
+
+  "tabBar":{
+    "color":"#a55",
+    "selectedColor": "#ff000",
+    "backgroundColor": "#ccc",
+    "borderStyle":"black",
+  
+    "list":[{
+      "pagePath":"picture/pag/index/index",
+      "text":"签到",
+      "iconPath":"image/a55.png",
+      "selectedIconPath": "image/a66.png"
+    },
+  {
+    
+      "pagePath":"pages/houtai/houtai",
+      "text":"后台",
+      "iconPath":"image/b55.png",
+      "selectedIconPath": "image/后台.png"
+  }
+]
+  },
+  "cloud":true,
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
+

@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="indexContext" >
+  <image class="avatar" src='/image/a123.jpg'></image>
+
+  <text class='username'>人脸识别签到系统</text></view>
+<view >
+    <!--for循环遍历用于存储图片地址和时间的地址-->
+    <view class="tupian" wx:for="{{imgList}}" wx:key="key" bindtap="clickImg" data-index="{{index}}"  >
+        <!--展示图片时间-->
+        <view class="i">{{imgList[index].time}}</view> 
+        <!--展示-->
+        <view style="display:flex;justify-content: center;">
+             <image  style="width:100%;" src="{{imgList[index].url}}" ></image>
+        </view>
+    </view>
+</view>
+
+
+<view class="layout">
+  <button style="primary" bindtap='UploadImage' class='btn' >开始签到</button>
+  <view class="info_view">
+  <text class="xingming">姓名:{{finalname}}</text>
+<text class="xuehao">学号：{{PersonId}}</text>
+<text class="info">匹配分数：{{Score}}</text>
+</view>
+  <view class="content" bindtap="qiandao">
+    <view class="content">
+    <button class="qiandao" style="primary">确认签到</button>
+    <image class="icon_photo" style="width:35px;height:35px" src="/image/相机.png"></image>
+  </view></view>
+
+</view>

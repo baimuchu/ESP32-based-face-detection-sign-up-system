@@ -1,0 +1,122 @@
+.info_view{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  
+  color: blue;
+}
+.image_view{
+  display: flex;
+  /* justify-content: center; */
+  background: blanchedalmond;
+    width: 600px;
+    height: 300px;
+    border-radius: 20rpx;
+    position: center;
+   margin-top: 90px;
+}
+
+.tupian{
+ width:250px;
+ height:250px;
+ position:fixed;
+ margin-left: 60px;
+ margin-top:50px;
+
+}
+.i{
+  margin-left: 40px;
+  margin-top:50px;
+}
+.image_view .tupian .src{
+  width: 600px;
+    height: 300px;
+    position:fixed;
+}
+/* pages/index/index.wxss */
+/*里面设置class那边的样式  */
+page{
+  /*最外面有一层page设置整个高度 和背景  */
+  height: 100%;
+  background: #3cbecf;
+}
+.indexContext{
+  /*flex布局  */
+display: flex;
+/*纵向布局  */
+flex-direction: column;
+/*布局居中  */
+align-items: center;
+}
+.avatar{
+  width: 80px;
+  height: 80px;
+  /*圆角图形取一半  */
+  border-radius: 100px;
+ margin-top: 90px;
+}
+.username{
+  margin-top:50px;
+  font-size: 40rpx;
+  /*字体变粗  */
+  font-weight: bold;
+  color: bisque;
+  position: absolute;
+}
+
+.layout{
+  position:fixed;
+  left: 0;
+  top:50;
+  z-index: 1000;
+  width:100%;
+  height:100%;
+  margin-top: 450px;
+  
+}
+.layout .title{
+  color:white;
+  font-size:70px;
+  position: absolute;
+  top:150px;
+  text-align: center;
+ width:50%;
+ 
+}
+.layout .content{
+  width: 150px;
+  height: 100px;
+  margin:0 auto;
+  background-color: white;
+  border-radius:15px;
+  text-align: center;
+  position: relative;
+
+}
+.layout .content view{
+height: 30px;
+line-height: 60px;
+}
+.layout .content .icon_photo{
+  position: absolute;
+  left:60px;
+  top: 50px;   /*120-26)/2=46*/
+
+}
+ /* .info_view{
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+} 
+.info{
+  display: flex;
+  flex-direction: column;
+  
+  color: blue;
+}  */

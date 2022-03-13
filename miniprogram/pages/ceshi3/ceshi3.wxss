@@ -1,0 +1,86 @@
+.layout{
+  position:fixed;
+  left: 0;
+  top:0;
+  z-index: 1000;
+  width:100%;
+  padding-top: 380px;
+}
+.layout .title{
+  color:white;
+  font-size:26px;
+  position: absolute;
+  top:120px;
+  text-align: center;
+ width:100%;
+}
+.layout .content{
+  width: 150px;
+  height: 120px;
+  margin:0 auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius:15px;
+  text-align: center;
+  position: relative;
+}
+.layout .content view{
+height: 60px;
+line-height: 60px;
+}
+.layout .content .icon_photo{
+  position: absolute;
+  left: 5px;
+  top: 46px;   /*120-26)/2=46*/
+
+}
+.bgImage{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+
+}
+.inaver._30f2b4d {
+  box-sizing: border-box;
+  padding-top: 44rpx;
+  width: 100vw;
+  height: 160rpx;
+  display: flex;
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+}
+ 
+.inaver .left._30f2b4d {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 8rpx;
+}
+ 
+.inaver .left image.icon._30f2b4d {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 10rpx;
+  margin: 10rpx;
+}
+ 
+.inaver .center._30f2b4d {
+  height: 100rpx;
+  line-height: 100rpx;
+  flex: 1;
+  margin: 8rpx;
+}
+ 
+.inaver .right._30f2b4d {
+  width: 240rpx;
+  height: 100rpx;
+  margin: 8rpx;
+}
+ 
+.protect-inaver._30f2b4d {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 160rpx;
+
+}

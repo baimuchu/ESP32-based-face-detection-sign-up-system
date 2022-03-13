@@ -1,0 +1,22 @@
+<view class="header">
+<!-- 渲染数据，利用双大括号包裹着data下面的属性-->
+{{message}}
+</view>
+
+<view>
+  <!--bindtap="click_event"事件绑定-->
+  <!--data-id="0" 自定义属性-->
+  <!--{{cunrrent == '0' '':'active'}}  三目运算-->
+  <!-- 改变current变量的值，切换背景高亮-->
+  <view bindtap="click_event"  data-num="0" class="btn-toggle {{current =='0' ? '':'active'}}"></view>
+</view>
+
+<view class="wrapper" style="background-color:{{bgcolor}}">
+  <view class="search">
+    <!--bindinput="input_func"事件 监听输入是变化值-->
+    <input bindinput="input_func" placeholder="请输入"></input>
+   <!--bindtap="click_func"事件 监听点击-->
+    <button bindtap="click_func">按钮</button>
+  </view>
+</view>
+

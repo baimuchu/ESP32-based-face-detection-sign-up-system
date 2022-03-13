@@ -1,0 +1,54 @@
+<view class="indexContext">
+  <image class="avatar" src='/image/a123.jpg'></image>
+
+  <text class='username'>签到系统</text>
+</view>
+
+<!-- <view class="info_view">
+<text class="info">年龄：{{age}}</text>
+<text class="info">是否带眼镜：{{glasses}}</text>
+<text class="info">是否戴口罩：{{mask}}</text>
+<text class="info">是否戴帽子：{{hat}}</text>
+<text class="info">性别：{{gender}}</text>
+</view> -->
+<view >
+    <!--for循环遍历用于存储图片地址和时间的地址-->
+    <view class="tupian" wx:for="{{imgList}}" wx:key="key" bindtap="clickImg" data-index="{{index}}"  >
+        <!--展示图片时间-->
+        <view class="i">{{imgList[index].time}}</view> 
+        <!--展示-->
+        <view style="display:flex;justify-content: center;">
+             <image  style="width:100%;" src="{{imgList[index].url}}" ></image>
+        </view>
+    </view>
+</view>
+<view class="info_view">
+<text class="info">学号：{{PersonId}}</text>
+<text class="info">分数：{{Score}}</text>
+<text class="info">性别：{{Gender}}</text>
+</view>
+<view class="layout">
+  <view class="content" bindtap="UploadImage">
+    <view class="content">
+    <view>开始签到</view>
+    <image class="icon_photo" style="width:35px;height:35px" src="/image/相机.png"></image>
+  </view></view>
+</view>
+<view>{{imgList[index].time}}</view> 
+<view class="image_view">
+<view class="tupian" bindtap="clickImg">
+<image style="width:100%;" src="{{image_src}}" ></image></view>
+</view>
+<!-- <view class="tupian" wx:for="{{image_src}}" wx:key="key" bindtap="clickImg" data-index="{{index}}"  > -->
+        <!--展示图片时间-->
+        <!-- <view>{{image_src[index].time}}</view>  -->
+        <!--展示-->
+        <!-- <view style="display:flex;justify-content: center;">
+             <image  style="width:100%;" src="{{image_src[index].url}}" ></image>
+        </view>
+    </view> -->
+
+<!-- <view class="button_view">
+<button class="button_size" type="primary" bindtap="UploadImage">上传图片</button>
+</view> -->
+

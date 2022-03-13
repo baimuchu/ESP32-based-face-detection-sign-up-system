@@ -1,0 +1,10 @@
+<!--client/pages/jiance/jiance.wxml-->
+<image iamge_src='' class='bg'></image>
+<view class="image_viwe_size">
+<canvas canvas-id="Canvas" style="width: 250px; height: {{canvas_height}}px;display:{{canvas_viwe_display}};"></canvas>
+<image src='{{image_src}}' style="width: 250px; height: {{canvas_height}}px;display:{{image_viwe_display}};" class='img1'></image>
+</view>
+<view><button  bindtap="UploadImage" class='btn'>点击上传</button>
+<button class='btn' bindtap="DetectFace">检测</button></view>
+<image image_src='' class='img2'></image>
+<view class='predv'><text class='pred'>{{prediction}}</text></view>

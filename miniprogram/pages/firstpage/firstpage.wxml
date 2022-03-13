@@ -1,0 +1,42 @@
+
+<view class="indexContext">
+  <image class="avatar" src='/image/a123.jpg'></image>
+
+  <text class='username'>签到系统</text>
+</view>
+  
+  <view class="layout">
+  <view class="content" bindtap="camera_func" bindlongpress="album_func">
+  <view class="content">
+    <view>拍照</view>
+    <view>看</view>
+    <image class="icon_photo" style="width:20px;height:20px" src="/image/相机.png"></image>
+  </view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+  
+<!-- </view>
+<button type="primary" bindtap="btn1">开始验证</button> -->
+
+<!-- <view class="out">
+<view style="padding:50px;" >
+<progress  percent="100" show-info font-size="15" border-radius="10" activeColor="blue" backgroundColor="#ccc" active ></progress>
+</view>
+</view> -->
+
+
+
+
+
+

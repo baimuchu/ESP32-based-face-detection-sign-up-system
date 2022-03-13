@@ -1,0 +1,16 @@
+{
+  "name": "SearchFace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "tencentcloud-sdk-nodejs": "^4.0.144",
+    "wx-server-sdk": "^2.5.1"
+  }
+}

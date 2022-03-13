@@ -1,0 +1,81 @@
+.row{padding:30px 20px;border-bottom:1px solid gray;}
+.row .title{font-size:35px;}
+.row .zhaopian {
+  margin-left: 0px;
+  height:10px;
+  width: 10px;
+}
+.row .zhaopian .zhao{
+  height:80px;
+  width: 80px;
+}
+.row .wenzi{
+  margin-left: 100px;
+  margin-top: 0;
+}
+.row .one{
+  margin-top: 10px;
+}
+.row .two{
+ position: center;
+}
+/* .top {background-color: skyblue;
+      height:30px;
+      width:100%;
+      position: absolute;
+      padding-top: 20px;
+} */
+.text{
+  position: fixed;
+  text-align: center;
+  color:rgb(56, 37, 13);
+  font-size:22px;
+  width: 300px;
+  top:45px;
+  left:35px;
+}
+.inaver._30f2b4d {
+  box-sizing: border-box;
+  padding-top: 44rpx;
+  width: 100vw;
+  height: 160rpx;
+  display: flex;
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  background-color: skyblue;
+}
+ 
+.inaver .left._30f2b4d {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 8rpx;
+}
+ 
+.inaver .left image.icon._30f2b4d {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 10rpx;
+  margin: 10rpx;
+}
+ 
+.inaver .center._30f2b4d {
+  height: 100rpx;
+  line-height: 100rpx;
+  flex: 1;
+  margin: 8rpx;
+}
+ 
+.inaver .right._30f2b4d {
+  width: 240rpx;
+  height: 100rpx;
+  margin: 8rpx;
+}
+ 
+.protect-inaver._30f2b4d {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 160rpx;
+
+}

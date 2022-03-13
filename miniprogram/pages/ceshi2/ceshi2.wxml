@@ -1,0 +1,24 @@
+<view class="inaver _30f2b4d" style="background:{{background}};color:{{getColor}}">
+    <view class="left _30f2b4d" bindtap="goBack">
+      <image class="icon _30f2b4d" src="/image/home.png"/>
+    </view>
+    <view class="center _30f2b4d">
+      <!-- 自定义区域 -->
+    </view>
+    <view class="right _30f2b4d">
+      <!-- 保护右上角胶囊不被污染 -->
+    </view>
+  </view>
+  <view  class="protect-inaver _30f2b4d">
+    <!-- 占据顶部位置， 伪padding板块 -->
+  </view>
+
+
+
+<view class="layout">
+  <button bindtap="album_func">从相册获取照片</button>
+  <button bindtap="camera_func">从手机获取照片</button>  
+  
+ 
+ </view>
+ <image src="{{path}}"></image>

@@ -1,0 +1,22 @@
+<!-- <view class="inaver _30f2b4d" style="background:{{background}};color:{{getColor}}">
+
+  
+  
+</view>
+<view  class="protect-inaver _30f2b4d">
+ 
+</view> -->
+
+<navigator url="/pages/already/already"    style="width:200px;height=200px" open-type="redirect"> <view class="alreadyenrolled">
+  <text class="title1">已签到名单</text></view></navigator>
+
+  <navigator url="/pages/havent/havent" open-type="redirect">
+  <view class="haventenrolled"> 
+    <text  class="title2">未签到名单</text>
+    <!-- <button type="default" ontap="goback" >未签到</button> -->
+</view>  </navigator>
+
+  <navigator url="/pages/cengke/cengke" style="width:200px;height=200px">
+  <view class="cengke" >
+    <text class="title3">全体学生名单</text></view></navigator>
+    <button style="primary" bindtap='reset' class='btn1'>重置名单</button>

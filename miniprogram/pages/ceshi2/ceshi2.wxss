@@ -1,0 +1,67 @@
+.layout{
+  width:100%;
+  padding-top:100px;
+  top:0;
+  left: 0;
+  position: fixed;
+  z-index:1000;
+}
+.layout button{
+  margin-bottom: 50px;
+background-color: #333;
+color:white;
+}
+image{
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index:1;
+}
+
+.inaver._30f2b4d {
+  box-sizing: border-box;
+  padding-top: 44rpx;
+  width: 100vw;
+  height: 160rpx;
+  display: flex;
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+}
+ 
+.inaver .left._30f2b4d {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 8rpx;
+}
+ 
+.inaver .left image.icon._30f2b4d {
+  width: 60rpx;
+  height: 60rpx;
+  padding-top: 15px;
+  margin: 30rpx;
+
+}
+ 
+.inaver .center._30f2b4d {
+  height: 100rpx;
+  line-height: 100rpx;
+  flex: 1;
+  margin: 8rpx;
+}
+ 
+.inaver .right._30f2b4d {
+  width: 240rpx;
+  height: 100rpx;
+  margin: 8rpx;
+}
+ 
+.protect-inaver._30f2b4d {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 160rpx;
+
+}

@@ -1,0 +1,27 @@
+.info_view{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  
+  color: blue;
+}
+.image_view{
+  display: flex;
+  justify-content: center;
+  background: blanchedalmond
+}
+.button_view{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.button_size{
+  width: 200px;
+  height: 50px;
+
+}

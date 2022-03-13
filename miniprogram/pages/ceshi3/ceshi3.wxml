@@ -1,0 +1,26 @@
+<view class="layout">
+  <view class="title">你的脸~</view>
+  <view class="content">
+    <view>拍照</view>
+    <view>看</view>
+    <image class="icon_photo" style="width:20px;height:20px" src="/image/相机.png"></image>
+  </view>
+</view>
+
+<view class="bgImage">
+  <image src="/image/B7504BF591A3E1012F3F3C8871DA357F.png"></image>
+</view>
+<view class="inaver _30f2b4d" style="background:{{background}};color:{{getColor}}">
+    <view class="left _30f2b4d" bindtap="goBack">
+      <image class="icon _30f2b4d" src="/image/home.png"/>
+    </view>
+    <view class="center _30f2b4d">
+      <!-- 自定义区域 -->
+    </view>
+    <view class="right _30f2b4d">
+      <!-- 保护右上角胶囊不被污染 -->
+    </view>
+  </view>
+  <view  class="protect-inaver _30f2b4d">
+    <!-- 占据顶部位置， 伪padding板块 -->
+  </view>
